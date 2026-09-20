@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <ui:VisualElement name="Overlay" style="flex-grow: 1; background-color: rgba(0,0,0,0.6); justify-content: center; align-items: center; display: none;">
+
+        <ui:VisualElement name="Popup" style="width: 320px; height: 260px; background-color: rgb(255,255,255); border-radius: 24px; justify-content: center; align-items: center; padding: 20px;">
+
+            <ui:Label name="TitleLabel" text="You Win!" style="font-size: 32px; -unity-font-style: bold; margin-bottom: 10px;" />
+
+            <ui:Label name="SubtitleLabel" text="Score: 0" style="font-size: 18px; margin-bottom: 20px;" />
+
+            <ui:Button name="RetryButton" text="Retry" style="width: 200px; height: 50px; font-size: 18px; margin-bottom: 10px;" />
+
+            <ui:Button name="MenuButton" text="Main Menu" style="width: 200px; height: 50px; font-size: 18px;" />
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

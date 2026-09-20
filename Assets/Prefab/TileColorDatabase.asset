@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b5405d84699ff4ebaa0b5204e2355f, type: 3}
+  m_Name: TileColorDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::TileColorDatabase_SO
+  entries:
+  - id: 0
+    colorName: Blue
+    sprite: {fileID: -6429493399158520243, guid: d19c6d46f61108c4f92a2efce76b466b, type: 3}
+  - id: 1
+    colorName: Green
+    sprite: {fileID: -4987337320017983735, guid: 023098d9044dc374987f8d7be2c40dd0, type: 3}
+  - id: 2
+    colorName: Orange
+    sprite: {fileID: 4121880872312635667, guid: 0900bd2bb3bb5ac48bb35db6742ccafc, type: 3}
+  - id: 3
+    colorName: Pink
+    sprite: {fileID: -7381184880430962403, guid: 2e2f6b6978c767e4689b05267f7e1740, type: 3}
+  - id: 4
+    colorName: Purple
+    sprite: {fileID: -8923911374754931897, guid: 52f615b56c6a62e47afb2b3019ff9311, type: 3}
+  - id: 5
+    colorName: Red
+    sprite: {fileID: 6286595657586805340, guid: 82bde3d9939628940a6bdbbc468eacf2, type: 3}
+  - id: 6
+    colorName: Yellow
+    sprite: {fileID: 6358040702757662528, guid: 8cd20a4c8f25a6742b33152885514119, type: 3}

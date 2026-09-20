@@ -1,0 +1,46 @@
+
+    .background-image {
+    position: absolute;top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -unity-background-scale-mode: scale-and-crop;
+}
+.game-title {
+    height: 126px;
+    font-size: 56px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+     color: rgb(255, 235, 130);
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(120, 60, 10);
+      text-shadow: 2px 4px 0 rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+}
+
+.button-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    align-items: center;
+}
+.menu-button {
+    font-size: 20px;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    align-self: center;
+    background-position-x: center;
+}
+.play-button {
+    background-image: resource("GreenBtn");
+    height: 76px;
+    width: 219px;
+}
+.continue-button {
+    background-image: resource("Buttons/LG_Blue_Btn");
+    height: 80px;
+    width: 220px;
+}

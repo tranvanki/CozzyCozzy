@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=919e1c76cc5361a4494b43bfa980adcb&amp;type=3#MainMenu"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:Image name="BackgroundImage" class="background-image" style="background-image: resource(&quot;LevelMap/World1/World_1&quot;); background-color: rgb(255, 255, 255);"/>
+        <ui:Label text="CozzyCozzy" class="game-title" style="justify-content: space-between; align-self: center; color: rgb(55, 55, 55); font-size: 36px;"/>
+        <ui:VisualElement name="ButtonPanel" class="button-panel">
+            <ui:Button text="Play" name="Play" class="menu-button play-button" style="background-image: resource(&quot;GreenBtn&quot;); height: 111px; width: 333px;"/>
+            <ui:Button text="Continue" name="Continue" class="menu-button continue-button" style="background-image: resource(&quot;Buttons/LG_Blue_Btn&quot;); height: 116px; width: 334px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

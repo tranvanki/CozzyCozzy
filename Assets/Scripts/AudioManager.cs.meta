@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ecadcbfddac756c4cb7cc623421a7308
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - sfxSource: {instanceID: 0}
+  - backgroundMusic: {fileID: 8300000, guid: e7893216073f8b34cb15e14c31529132, type: 3}
+  - matchClip: {fileID: 8300000, guid: 4a840eb9a52bb31478bd84b324b9f455, type: 3}
+  - bombClip: {instanceID: 0}
+  - swapClip: {fileID: 8300000, guid: 75e2a1cba612ce141be271530ed2ec1b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
