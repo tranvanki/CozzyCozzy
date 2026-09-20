@@ -7,6 +7,8 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 MemoryCaptures/
+UIElementsSchema/
+.utmp/
 
 # Unity generated files
 ExportedObj/
