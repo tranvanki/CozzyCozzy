@@ -6,3 +6,4 @@ CozzyCozzy is a Unity mobile match three puzzle game.
 - Deadlocked boards reshuffle automatically.
 - Built with Unity, UI Toolkit, and the Input System.
 - It demonstrates touch controls, scoring, goals, and outcomes.
+
